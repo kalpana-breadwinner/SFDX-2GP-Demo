@@ -1,12 +1,18 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "2GP Demo",
+            "versionName": "1.0",
+            "versionNumber": "1.0.0.NEXT"
+        }
+    ],
+    "name": "SFDX-2GP-Demo",
+    "namespace": "kalpana_2gp",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "2GP Demo": "0Ho7F000000TNPISA4"
     }
-  ],
-  "name": "SFDX-2GP-Demo",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "52.0"
 }
